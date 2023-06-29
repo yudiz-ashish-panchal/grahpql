@@ -22,7 +22,7 @@ function SimpleUseQuery() {
 
   return (
     <div>
-        <h1>Simple useQuery</h1>
+        <h1>Use Query Demo</h1>
       <ul>
         {data?.launches?.map((launch) => (
           <li key={launch?.mission_name}>{launch?.mission_name}</li>
