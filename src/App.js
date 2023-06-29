@@ -1,11 +1,11 @@
 import './App.css';
 import RefetchingUseQuery from './components/RefetchingQuery';
-import SimpleUseQuery from './components/SimpleQuery';
+import CompanyDetails from './components/CompanyDetails';
 
 function App() {
   return (
     <div>
-        <SimpleUseQuery/>
+        <CompanyDetails/>
         <RefetchingUseQuery/>
     </div>
   );
